@@ -38,7 +38,7 @@
 
   <title>
     
-Adil Ahmad | CSE 598: Trusted Computing in Clouds: Past, Present, and Future
+Adil Ahmad | Brief Descriptions of Courses I teach
 
   </title>
 
@@ -103,8 +103,6 @@ Adil Ahmad | CSE 598: Trusted Computing in Clouds: Past, Present, and Future
           
             
           
-            
-          
           
           
           <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
@@ -129,155 +127,19 @@ Adil Ahmad | CSE 598: Trusted Computing in Clouds: Past, Present, and Future
 <section class="section">
   <div class="container">
     <div class="has-text-centered">
-      <h1 class="title is-2">CSE 598: Trusted Computing in Clouds: Past, Present, and Future</h1>
-      <p class="subtitle is-4">Fall 2022</p>
+      <h1 class="title is-2">Brief Descriptions of Courses I teach</h1>
+      <p class="subtitle is-4">(Please click on the links for full details)</p>
     </div>
     <div class="content">
       <br>
-<h2 id="overview">Overview</h2>
-<p>Users increasingly send data sets containing sensitive attributes, like personally identifiable information, to various cloud machines, where data sets are exposed to attacks from numerous vectors (e.g., untrusted cloud administrators and other machine tenants). As evident in several high-profile data breaches, like the T-Mobile breach that exposed the social security number (SSN) of millions of people, even some of our most crucial and privacy-sensitive data sets are not secure.</p>
-<p>In this course, we will investigate the promise of hardware-assisted trusted computing, a field of study that uses CPU protection features (e.g., Intel SGX, AMD SEV, ARM TrustZone/CCA, etc.) to protect user data inside enclaves on cloud machines. Initially, we will study the seminal work that lead to the development of these features. Then, we will discuss how software systems leverage enclaves to enable trusted services. Unfortunately, enclaves suffer from various attack vectors (e.g., side-channels, micro-architectural defects, etc.). We will investigate both attack vectors and proposed software/hardware defenses. The course will conclude with an overview of the open problems in the trusted computing area.</p>
-<h2 id="general-information">General information</h2>
-<p>   <strong>Timings</strong>: 10:30 - 11:45 AM on Mondays and Wednesdays</p>
-<p>   <strong>Location</strong>: Tempe -- College of Design North (CDN) 62</p>
-<p>   <strong>Office hours</strong>: By appointment through email</p>
-<h2 id="course-objective-and-grading-criterion">Course objective and grading criterion</h2>
-<p>This course will help students (a) build a strong understanding of trusted cloud computing through enclaves (including design and implementation details) and (b) leverage this understanding to conduct a systems/security-oriented research project in the trusted computing domain.</p>
-<p>ASU students should refer to the detailed course PDF (provided in the course link at <a rel="noopener nofollow noreferrer" target="_blank" href="https://my.asu.edu">myASU</a>) for a full understanding of grading requirements of this course.</p>
-<h2 id="course-topics-and-presentation-materials">Course topics and presentation materials</h2>
-<p>The course will cover 5 main topics. Each topic will be covered through a combination of focused lectures (delivered by the instructor) and research paper presentations (lead by the students). A list of potential research papers for each section is provided below. Students are free to select their own research paper to present, as long as the paper is related to the course topic.</p>
-<p><strong>1. Towards Trusted Computing</strong></p>
-<ul>
-<li>
-<p>Architectural Support for Copy and Tamper Resistant Software [ASPLOS 2000]</p>
-</li>
-<li>
-<p>AEGIS: Architecture for Tamper-Evident and Tamper-Resistant Processing [ICS 2003]</p>
-</li>
-<li>
-<p>SecVisor: A Tiny Hypervisor to Provide Lifetime Kernel Code Integrity for Commodity OSes [SOSP 2007]</p>
-</li>
-<li>
-<p>Overshadow: a virtualization-based approach to retrofitting protection in commodity operating systems [ASPLOS 2008]</p>
-</li>
-<li>
-<p>Flicker: An execution infrastructure for TCB minimization [EuroSys 2008]</p>
-</li>
-<li>
-<p>TrustVisor: Efficient TCB reduction and attestation [S&amp;P 2010]</p>
-</li>
-<li>
-<p>InkTag: Secure Applications on an Untrusted Operating System [ASPLOS 2013]</p>
-</li>
-<li>
-<p>TrustZone-TLR: Using ARM TrustZone to Build a Trusted Language Runtime for Mobile Applications [ASPLOS 2014]</p>
-</li>
-<li>
-<p>Nested Kernel: An Operating System Architecture for Intra-Kernel Privilege Separation [ASPLOS 2015]</p>
-</li>
-<li>
-<p>SoK: Hardware Security Support for Trustworthy Execution [Arxiv 2019]</p>
-</li>
-</ul>
-<p><strong>2. Building Trusted Services</strong></p>
-<ul>
-<li>
-<p>BlindBox: Deep packet inspection over encrypted traffic [SIGCOMM 2015]</p>
-</li>
-<li>
-<p>Graphene-SGX: A Practical Library OS for Unmodified Applications on SGX [ATC 2017]</p>
-</li>
-<li>
-<p>Custos: Practical Tamper-Evident Auditing of Operating Systems Using Trusted Execution [NDSS 2020] </p>
-</li>
-<li>
-<p>BlackMirror: Preventing wallhacks in 3D Online FPS Games [CCS 2020]</p>
-</li>
-<li>
-<p>Chancel: Efficient Multi-client Isolation Under Adversarial Programs [NDSS 2021]</p>
-</li>
-<li>
-<p>RT-TEE: Real-time System Availability for Cyber-physical Systems using ARM TrustZone [S&amp;P 2022]</p>
-</li>
-</ul>
-<p><strong>3. Understanding Attacks</strong></p>
-<ul>
-<li>
-<p>Iago Attacks: Why the System Call API is a Bad Untrusted RPC Interface [ASPLOS 2013]</p>
-</li>
-<li>
-<p>Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems [S&amp;P 2015] </p>
-</li>
-<li>
-<p>Drammer: Deterministic Rowhammer Attacks on Mobile Platforms [CCS 2016]</p>
-</li>
-<li>
-<p>Software Grand Exposure: SGX Cache Attacks Are Practical [Arxiv 2018]</p>
-</li>
-<li>
-<p>Foreshadow: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution [Security 2019]</p>
-</li>
-<li>
-<p>SoK: Understanding the Prevailing Security Vulnerabilities in TrustZone-assisted TEE Systems [S&amp;P 2020]</p>
-</li>
-<li>
-<p>Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical [Security 2021]</p>
-</li>
-<li>
-<p>A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP [S&amp;P 2022]</p>
-</li>
-<li>
-<p>Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks [S&amp;P 2022]</p>
-</li>
-<li>
-<p>AMD Prefetch Attacks through Power and Time [Security 2022]</p>
-</li>
-</ul>
-<p><strong>4. Understanding Defenses</strong></p>
-<ul>
-<li>
-<p>Sanctum: Minimal Hardware Extensions for Strong Software Isolation [Security 2016]</p>
-</li>
-<li>
-<p>Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks [ATC 2019]</p>
-</li>
-<li>
-<p>Autarky: Closing Controlled Channels with Self-Paging Enclaves [EuroSys 2020]</p>
-</li>
-<li>
-<p>CHUNKED-CACHE: On-Demand and Scalable Cache Isolation for Security Architectures [NDSS 2022] </p>
-</li>
-<li>
-<p>SynthCT: Towards Portable Constant-Time Code [NDSS 2022]</p>
-</li>
-<li>
-<p>Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks [Security 2022] </p>
-</li>
-<li>
-<p>SecSMT: Securing SMT Processors against Contention-Based Covert Channels [Security 2022]</p>
-</li>
-</ul>
-<p><strong>5. Exploring Future Avenues</strong></p>
-<ul>
-<li>
-<p>Graviton: Trusted Execution Environments on GPUs [OSDI 2018]</p>
-</li>
-<li>
-<p>Keystone: An Open Framework for Architecting Trusted Execution Environments [EuroSys 2020] </p>
-</li>
-<li>
-<p>Trustore: Side-Channel Resistant Storage for SGX using Intel Hybrid CPU-FPGA [CCS 2020]</p>
-</li>
-<li>
-<p>Scalable Memory Protection in the PENGLAI Enclave [OSDI 2021]</p>
-</li>
-<li>
-<p>ShEF: Shielded Enclaves for Cloud FPGAs [CCS 2022]</p>
-</li>
-<li>
-<p>vSGX: Virtualizing SGX Enclaves on AMD SEV [S&amp;P 2022]</p>
-</li>
-</ul>
+<div style="text-align: justify">
+<h2 id="cse-536-advanced-operating-systems-spring-2023">CSE 536: Advanced Operating Systems (Spring 2023)</h2>
+<p>The Operating System (OS) is one of the most critical component of modern machines---all the way from Raspberry Pis to supercomputers---because it controls hardware resources allocated to all other software. In this course, we start by answering fundamental questions about operating systems and gradually progress all the way to shattering traditional assumptions regarding <em>trust</em> on an OS. For instance, we will start by answering the question: <em>How does the operating system get to start when a machine boots up?</em> At the end, we will answer the question: <em>what should I do when I cannot trust the operating system to correctly protect my programs?</em> Students gain a theoretical and practical understanding of how an OS works, all the way from how it starts to how it can spawn even new operating systems through virtualization techniques. With this, they are expected to become proficient in systems-level programming on any operating system codebase (e.g., Linux, Windows).</p>
+<h2 id="cse-691-current-topics-in-cybersecurity-spring-2023">CSE 691: Current Topics in Cybersecurity (Spring 2023)</h2>
+<p>Cybersecurity is a wide research area, focusing on four &quot;top conferences&quot; spaced out over the year. To understand the state of the art in cybersecurity, one has to follow the latest developments of all four of these top conferences. This course will focus on the reading, review, and discussion of papers published in the &quot;top four&quot; cybersecurity conferences (namely ISOC NDSS, IEEE S&amp;P, ACM CCS, and USENIX Security). Each session will cover a unique set of freshly-published papers, and different iterations of this seminar will be quite different from each other. Assessment will be based on participation. Each student will be required to present, as part of a group, one or two papers each semester and to assist in distilling papers (again, as part of a group) into blog form once or twice per semester. Grades will be determined based on the insight and quality of these presentations.</p>
+<h2 id="cse-598-trusted-computing-in-clouds-past-present-and-future-fall-2022">CSE 598: Trusted Computing in Clouds: Past, Present, and Future (Fall 2022)</h2>
+<p>Users increasingly send data sets containing sensitive attributes, like personally identifiable information, to various cloud machines, where data sets are exposed to numerous attack vectors (e.g., untrusted cloud administrators and other tenants). As evident in several high-profile data breaches, like the T-Mobile breach that exposed the social security number (SSN) of millions of people, even some of our most crucial and privacy-sensitive data sets are not secure. In this course, we investigate the promise of hardware-assisted trusted computing, a field of study that uses CPU protection features (e.g., Intel SGX, AMD SEV, ARM TrustZone/CCA, etc.) to protect user data inside enclaves on cloud machines. Initially, we will study the seminal work that lead to the development of these features. Then, we will discuss how software systems leverage enclaves to enable trusted services. Unfortunately, enclaves suffer from various attack vectors (e.g., side-channels, micro-architectural defects, etc.). We will investigate both attack vectors and proposed software/hardware defenses. The course will conclude with an overview of the open problems in the trusted computing area.</p>
+</div>
 
     </div>
     <div class="columns is-centered">
