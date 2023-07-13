@@ -38,7 +38,7 @@
 
   <title>
     
-Adil Ahmad | Research overview and publications
+Adil Ahmad | 
 
   </title>
 
@@ -81,7 +81,7 @@ Adil Ahmad | Research overview and publications
           
             
             <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;adil-ahmad.net&#x2F;research&#x2F;">
-              Research
+              Publications
             </a>
             
           
@@ -91,10 +91,6 @@ Adil Ahmad | Research overview and publications
             </a>
             
           
-            
-            <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;adil-ahmad.net&#x2F;about&#x2F;">
-              About
-            </a>
             
           
             
@@ -127,35 +123,24 @@ Adil Ahmad | Research overview and publications
 <section class="section">
   <div class="container">
     <div class="has-text-centered">
-      <h1 class="title is-2">Research overview and publications</h1>
+      <h1 class="title is-2"></h1>
       <p class="subtitle is-4"></p>
     </div>
     <div class="content">
       <br>
 <div style="text-align: justify">
-<h2 id="goal-and-approaches">Goal and approaches</h2>
-<p>My research goal is to design systems that enable secure computation in a diverse range of important scenarios, including outsourced cloud computations and enterprise machines. In general, my research achieves its goal through two complementary (and sometimes overlapping) approaches:</p>
-<ul>
-<li>
-<p><strong>Leverage Hardware-Assisted Trusted Execution Environments.</strong> In modern machines, the security of all computations depend on the correctness of privileged system software (e.g., operating systems and hypervisors). In many important scenarios like cloud computations, the system software's correctness cannot be implicitly assumed since this software is configured by untrusted parties (e.g., cloud administrators). Hardware-assisted trusted execution environments (TEEs) offer us a promising solution to this problem. TEEs create protected execution contexts, called enclaves, which cannot be directly accessed by untrusted software (including the system software).<br><br>
-I am interested in all aspects of TEEs, including finding limitations (e.g., side-channels) in TEE designs that leak sensitive information, leveraging software and hardware mechanisms to overcome these limitations, and improving the usability of TEEs. If you are interested in learning more about this direction, please refer to <a href="../papers/ahmad-chancel.pdf">Chancel</a> [NDSS 2021], <a href="../papers/park-blackmirror.pdf">BlackMirror</a> [CCS 2020], <a href="../papers/oh-trustore.pdf">Trustore</a> [CCS 2020], <a href="../papers/le-t3.pdf">T3</a> [PETS 2020], <a href="../papers/ahmad-obfuscuro.pdf">Obfuscuro</a> [NDSS 2019], and <a href="../papers/ahmad-obliviate.pdf">Obliviate</a> [NDSS 2018]. I am also teaching a course (<a href="../teaching/">CSE 598</a>) in Fall 2022 related to this research area.<br><br></p>
-</li>
-<li>
-<p><strong>Strengthen Critical Machine Software.</strong>
-Even correctly configured software can have design flaws or vulnerabilities that attackers can leverage to compromise the security and reliability of computations.
-In my research, I am interested in strengthening critical software at all levels of the system stack, including network-facing programs and privileged operating systems.
-In particular, I am interested in designing systems that find critical software bugs (e.g., data races) and vulnerabilities, minimize software codebase exposed to attackers, and aid in robust forensic analysis after a machine is compromised. If you are interested in learning more about this direction, please refer to <a href="../papers/ahmad-hardlog.pdf">HardLog</a> [SP 2022], <a href="../papers/ahmad-kard.pdf">Kard</a> [ASPLOS 2021], and <a href="../papers/abubakar-shard.pdf">Shard</a> [Security 2021].</p>
-</li>
-</ul>
-</div>
-<h2 id="publications">Publications</h2>
-<br>
-<h5 id="defeating-critical-threats-to-cloud-user-data-in-trusted-execution-environments-coming-soon">   Defeating Critical Threats to Cloud User Data in Trusted Execution Environments (coming soon)</h5>
+<h5 id="rethinking-system-audit-architectures-for-high-event-coverage-and-synchronous-log-availability-paper-new">   Rethinking System Audit Architectures for High Event Coverage and Synchronous Log Availability <a href="../papers/gandhi-omnilog.pdf">[paper]</a> (NEW)</h5>
+<p>     Varun Gandhi, Sarbartha Bannerjee, Aniket Agarwal, Adil Ahmad, Sangho Lee, and Marcus Peinado<br>
+     USENIX Security Symposium (Security), 2023</p>
+<h5 id="an-extensible-orchestration-and-protection-framework-for-confidential-cloud-computing-paper-new">   An Extensible Orchestration and Protection Framework for Confidential Cloud Computing <a href="../papers/ahmad-eopf.pdf">[paper]</a> (NEW)</h5>
+<p>     Adil Ahmad, Alex Shultz, Byoungyoung Lee, and Pedro Fonseca<br>
+     USENIX Operating Systems Design and Implementation (OSDI), 2023</p>
+<h5 id="defeating-critical-threats-to-cloud-user-data-in-trusted-execution-environments-paper">   Defeating Critical Threats to Cloud User Data in Trusted Execution Environments <a rel="noopener nofollow noreferrer" target="_blank" href="https://hammer.purdue.edu/articles/thesis/Defeating_Critical_Threats_to_Cloud_User_Data_in_Trusted_Execution_Environments/20371827/1">[paper]</a></h5>
 <p>     Adil Ahmad<br>
      PhD Thesis</p>
 <h5 id="hardlog-practical-tamper-proof-system-auditing-using-a-novel-audit-device-paper-slides-code">   HardLog: Practical Tamper-Proof System Auditing Using a Novel Audit Device [<a href="../papers/ahmad-hardlog.pdf">paper</a> | <a href="../slides/ahmad-hardlog.pdf">slides</a> | <a rel="noopener nofollow noreferrer" target="_blank" href="https://github.com/microsoft/HardLog">code</a>]</h5>
 <p>     Adil Ahmad, Sangho Lee, and Marcus Peinado<br>
-     IEEE Symposium on Security and Privacy (Oakland 2022), San Francisco, California, USA, May 22-26, 2022</p>
+     IEEE Symposium on Security and Privacy (Oakland), 2022</p>
 <h5 id="chancel-efficient-multi-client-isolation-under-adversarial-programs-paper-slides">   Chancel: Efficient Multi-client Isolation Under Adversarial Programs [<a href="../papers/ahmad-chancel.pdf">paper</a> | <a href="../slides/ahmad-chancel.pdf">slides</a>]</h5>
 <p>     Adil Ahmad, Juhee Kim, Jaebaek Seo, Insik Shin, Pedro Fonseca, and Byoungyoung Lee<br>
      ISOC Network and Distributed System Security Symposium (NDSS), 2021</p>
@@ -184,7 +169,27 @@ In particular, I am interested in designing systems that find critical software 
 <h5 id="detecting-and-defending-against-compelled-certificate-attacks-using-origin-bound-captchas-paper">   Detecting and Defending against Compelled Certificate Attacks using Origin-Bound CAPTCHAs [<a href="../paper/ahmad-obc.pdf">paper</a>]</h5>
 <p>     Adil Ahmad, Faizan Ahmad, Lei Wei, Vinod Yegneswaran and Fareed Zaffar<br>
      International Conference on Security and Privacy in Communication Networks (SecureComm) 2018</p>
+<!-- ## Goal and approaches
 
+My research goal is to design systems that enable secure computation in a diverse range of important scenarios, including outsourced cloud computations and enterprise machines. In general, my research achieves its goal through two complementary (and sometimes overlapping) approaches:
+
+- __Leverage Hardware-Assisted Trusted Execution Environments.__ In modern machines, the security of all computations depend on the correctness of privileged system software (e.g., operating systems and hypervisors). In many important scenarios like cloud computations, the system software's correctness cannot be implicitly assumed since this software is configured by untrusted parties (e.g., cloud administrators). Hardware-assisted trusted execution environments (TEEs) offer us a promising solution to this problem. TEEs create protected execution contexts, called enclaves, which cannot be directly accessed by untrusted software (including the system software).<br><br>
+I am interested in all aspects of TEEs, including finding limitations (e.g., side-channels) in TEE designs that leak sensitive information, leveraging software and hardware mechanisms to overcome these limitations, and improving the usability of TEEs. 
+
+If you are interested in learning more about this direction, please refer to [Chancel](../papers/ahmad-chancel.pdf) [NDSS 2021], [BlackMirror](../papers/park-blackmirror.pdf) [CCS 2020], [Trustore](../papers/oh-trustore.pdf) [CCS 2020], [T3](../papers/le-t3.pdf) [PETS 2020], [Obfuscuro](../papers/ahmad-obfuscuro.pdf) [NDSS 2019], and [Obliviate](../papers/ahmad-obliviate.pdf) [NDSS 2018]. I am also teaching a course ([CSE 598](../teaching/)) in Fall 2022 related to this research area.<br><br>
+
+- __Strengthen Critical Machine Software.__
+Even correctly configured software can have design flaws or vulnerabilities that attackers can leverage to compromise the security and reliability of computations.
+In my research, I am interested in strengthening critical software at all levels of the system stack, including network-facing programs and privileged operating systems.
+In particular, I am interested in designing systems that find critical software bugs (e.g., data races) and vulnerabilities, minimize software codebase exposed to attackers, and aid in robust forensic analysis after a machine is compromised. 
+
+If you are interested in learning more about this direction, please refer to [HardLog](../papers/ahmad-hardlog.pdf) [SP 2022], [Kard](../papers/ahmad-kard.pdf) [ASPLOS 2021], and [Shard](../papers/abubakar-shard.pdf) [Security 2021].
+
+</div>
+
+
+## Publications
+<br> -->
     </div>
     <div class="columns is-centered">
       <div class="column is-9">
